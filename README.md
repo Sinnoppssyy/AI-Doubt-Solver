@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# 🤖 AI Doubt Solver
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered web application that helps users instantly resolve doubts by generating accurate and context-aware answers using advanced language models.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+* 🔍 Ask any question and get instant answers
+* 🧠 Powered by AI (Groq API / LLM integration)
+* ⚡ Fast and responsive UI
+* 📱 Fully responsive (mobile + desktop)
+* 🔐 Secure API handling using environment variables
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+* **Frontend:** React.js
+* **Backend/API:** Groq API
+* **Styling:** CSS
+* **Deployment:** Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+AI-Doubt-Solver/
+│── public/
+│── src/
+│   ├── App.js
+│   ├── index.js
+│   └── components/
+│── .env.example
+│── package.json
+│── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Setup Instructions
 
-### `npm run eject`
+### 1️⃣ Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/Sinnoppssyy/AI-Doubt-Solver.git
+cd AI-Doubt-Solver
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2️⃣ Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3️⃣ Setup environment variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Create a `.env` file in the root directory:
 
-### Code Splitting
+```env
+REACT_APP_GROQ_API_KEY=your_api_key_here
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+⚠️ **Important:**
 
-### Analyzing the Bundle Size
+* Do NOT commit `.env`
+* Use `.env.example` as reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 4️⃣ Run the application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm start
+```
 
-### Advanced Configuration
+App will run on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+http://localhost:3000
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🌐 Deployment
 
-### `npm run build` fails to minify
+This project can be easily deployed using Vercel:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Push code to GitHub
+2. Import project in Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy 🚀
+
+---
+
+## 🔒 Security Notes
+
+* API keys are stored in `.env`
+* `.env` is ignored using `.gitignore`
+* Never expose API keys in code
+
+---
+
+## 📸 Screenshots
+
+<img width="833" height="307" alt="image" src="https://github.com/user-attachments/assets/812379e9-7b46-4503-bb94-cedd5410ba87" />
+
+<img width="845" height="573" alt="image" src="https://github.com/user-attachments/assets/4d7f5ec6-224c-4e43-b04c-ea7e86275633" />
+
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch
+3. Make changes
+4. Submit a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Partik Pratihar**
+
+* GitHub: https://github.com/Sinnoppssyy
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
